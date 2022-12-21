@@ -20,7 +20,7 @@ function displayWord(){
             const innerWord = wordEL.innerText.replace(/\n/g,'')
             if(innerWord === selectedWord){
                 finalMessage.innerText ="Congratulation, you win 😎"
-                message.innerText = ''
+                message.innerHTML = ''
                 popup.style.display ="flex"
                 playable = false
             }
